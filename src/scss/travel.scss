@@ -1,0 +1,12 @@
+#travel {
+  @media screen and (min-width:568px) {
+    padding-left: $padding;
+  }
+
+  .content {
+    padding: $padding;
+    margin-bottom: $padding;
+  }
+
+  .past { opacity: 0.5; }
+}

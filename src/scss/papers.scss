@@ -1,0 +1,34 @@
+#papers {
+  @media screen and (min-width:568px) {
+    padding-left: $padding;
+  }
+
+  .content {
+    padding: $padding;
+  }
+
+  a { font-weight: 600; }
+  ul { margin: 0; }
+  li { margin-bottom: 20px; }
+
+  .me { text-decoration: underline; }
+
+  .venue { font-style: italic; }
+
+  .best-paper {
+    color: #6f874c;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+  .collaborators {
+    font-size: 14px;
+
+    a {
+      font-weight: 300;
+      color: #000;
+
+      &:hover { color: $link-red; }
+    }
+  }
+}

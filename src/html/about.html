@@ -1,0 +1,53 @@
+<div id="about" class="content pure-g">
+  <!-- Mobile About Header -->
+  <div class="pure-visible-xs pure-u-6-24">
+    <img src="/imgs/arvind-green-small-lessgreen.jpg" id="mugshot" class="pure-img" alt="Arvind Satyanarayan" />
+  </div>
+
+  <div class="pure-visible-xs pure-u-18-24">
+    <div class="greeting">Hi, I'm Arvind Satyanarayan.</div>
+  </div>
+
+  <div class="meta pure-visible-xs pure-u-1">
+    {{email}} &middot; <a href="https://twitter.com/{{handle}}">@{{handle}}</a>
+     <a href="http://www.linkedin.com/in/{{handle}}">LinkedIn</a> &middot;
+     <a href="{{cv}}">Curriculum Vitae</a>
+  </div>
+  <!-- /Mobile About Header -->
+
+  <!-- Non-Mobile LHS -->
+  <div id="about-left" class="pure-hidden-xs pure-u-6-24 pure-u-lg-4-24">
+    <img src="/imgs/arvind-green-small-lessgreen.jpg" id="mugshot" class="pure-img" alt="Arvind Satyanarayan" />
+    <ul>
+      <li class="pure-hidden-sm">{{email}}</li>
+      <li class="pure-visible-sm"><a href="mailto:{{email}}">Email</a></li>
+      <li><a href="https://twitter.com/{{handle}}">@{{handle}}</a>
+        <span class="pure-hidden-sm">&middot;</span>
+        <a href="http://www.linkedin.com/in/{{handle}}">LinkedIn</a></li>
+      <li><a href="{{cv}}">Curriculum Vitae</a></li>
+    </ul>
+  </div>
+  <!-- /Non-Mobile LHS -->
+
+  <div id="about-desc" class="pure-u-1 pure-u-sm-12-24 pure-u-md-13-24 pure-u-lg-14-24">
+    <div class="pure-hidden-xs greeting">Hi, I'm Arvind Satyanarayan.</div>
+
+    <p>I'm a Computer Science PhD candidate at <a href="http://cs.stanford.edu/">Stanford University</a>, working with <a href="http://jheer.org/">Jeff Heer</a> and the <a href="http://idl.cs.washington.edu/">Interactive Data Lab</a>. My research seeks to lower the threshold for design, with a focus on data visualization. I'm also an advisor for <a href="http://apropose.com/">Apropose, Inc.</a>, a Bay Area startup I co-founded to build data-driven web design tools.</p>
+
+    <p>I graduated from <a href="http://ucsd.edu/">UC San Diego</a>, where I worked with <a href="http://hci.ucsd.edu/hollan">Jim Hollan</a> to study interactions with wall-sized displays. At UCSD's <a class="past" href="http://revelle.ucsd.edu/">Revelle College</a>, I helped create an <a class="past" href="https://revelle.ucsd.edu/student-life/involvement/saip/">internship program</a> and served as <a class="past" href="http://as.ucsd.edu/">Senator</a>, <a class="past" href="http://revreslife.ucsd.edu">Resident Advisor</a>, and Orientation Leader.
+
+    <p>Years ago, I <a class="past" href="http://blog.movalog.com/">wrote</a> <a class="past" href="http://plugins.movalog.com/">plugins</a> and <a class="past" href="https://web.archive.org/web/20130926022210/http://www.learningmovabletype.com/contributors/arvind/">tutorials</a> for <a class="past" href="http://movabletype.org/" id="mt-link">Movable Type</a>, and helped fork <a class="past" href="http://techcrunch.com/2009/06/25/movable-type-experts-team-up-on-melody-an-open-source-publishing-platform/" id="melody-link">Melody</a>.</p>
+  </div>
+
+  <div class="pure-u-1 pure-u-sm-6-24 pure-u-md-5-24">
+    <h2>News</h2>
+
+    <ul id="news">
+      {{#each news}}
+        <li>{{{this.desc}}} <br class="pure-hidden-xs" />
+          <span class="date">{{timeF '%b %e, %Y' this.date}}</span>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

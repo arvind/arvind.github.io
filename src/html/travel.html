@@ -1,0 +1,24 @@
+<div id="travel" class="pure-u-1 pure-u-sm-1-3">
+  <h2>Travel</h2>
+
+  <div class="content">
+    <table width="100%" cellpadding="0" cellspacing="0">
+      <tbody>
+        {{#each travel}}
+          <tr {{{pastTravel this}}}>
+            <td valign="top">
+              {{#eq (timeF '%b' start) (timeF '%b' end)}}
+                {{timeF '%b %e' start}}–{{timeF '%e' end}}
+              {{else}}
+                {{timeF '%b %e' start}}–{{timeF '%b %e' end}}
+              {{/eq}}
+            </td>
+            <td><a href="{{url}}">{{desc}}</a>, {{location}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+
+  <a class="twitter-timeline" data-dnt="true" data-height="480" data-link-color="#C06363" href="https://twitter.com/arvindsatya1"></a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

@@ -1,0 +1,28 @@
+<div id="papers" class="pure-u-1 pure-u-sm-1-3">
+  <h2>Publications</h2>
+
+  <div class="content">
+    <ul>
+      {{#each papers}}
+        <li{{#if hidden}} class="hidden-pubs"{{/if}}><a href="{{url}}">{{title}}</a><br />
+
+        <span class="collaborators">
+          {{#authorList authors ..}}
+            {{#if me}}
+              <a href="{{url}}" class="me">Arvind Satyanarayan</a>
+            {{else}}
+              <a href="{{url}}">{{name}}</a>
+            {{/if}}
+          {{/authorList}}.
+        </span>
+
+        <span class="venue">{{venueName venue 'short' ..}} {{year}}.</span>
+
+        {{#if bestPaper}}<span class="best-paper">Best Paper Award.</span>{{/if}}
+        </li>
+      {{/each}}
+
+      <li id="more-pubs"><a>Show More &raquo;</a></li>
+    </ul>
+  </div>
+</div>

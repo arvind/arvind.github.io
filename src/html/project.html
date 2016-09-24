@@ -1,0 +1,50 @@
+<h3><a href="{{url}}">{{name}}</a></h3>
+
+<div class="thumbnail">
+  <a href="{{url}}"><img src="/imgs/thumbs/{{slug}}.png" alt="{{name}}" class="pure-img" /></a>
+</div>
+
+<p class="abstract">{{{abstract}}}</p>
+
+<ul>
+  {{#gt papers.length 1}}
+
+    <li>Papers:
+    {{#paperList papers parent ', '}}
+      <a href="{{url}}">{{venueName venue 'short' ../parent}} '{{timeF '%y' year}}</a>
+    {{/paperList}}
+    </li>
+
+    <li>{{> project_meta parent=.}}</li>
+
+  {{else}}
+
+    {{#paperList papers parent ', '}}
+      <li><a href="{{url}}">Paper</a> &middot;
+      {{> project_meta parent=..}}</li>
+    {{/paperList}}
+
+  {{/gt}}
+
+  {{#gt videos.length 1}}
+    <li>Videos:
+    {{#each videos}}
+      <a href="{{url}}" class="fancybox-media">{{name}}</a>{{#unless @last}}, {{/unless}}
+    {{/each}}
+    </li>
+  {{/gt}}
+
+  {{#gt talks.length 1}}
+    <li>Talks:
+    {{#each talks}}
+      <a href="{{url}}" class="fancybox-media">{{venueName venue 'short' ../parent}} '{{timeF '%y' year}}</a>{{#unless @last}}, {{/unless}}
+    {{/each}}
+    </li>
+  {{/gt}}
+
+  <li class="collaborators">Collaborators:
+    {{#authorList collaborators parent}}
+      <a href="{{url}}">{{name}}</a>
+    {{/authorList}}
+  </li>
+</ul>

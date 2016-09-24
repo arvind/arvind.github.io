@@ -1,0 +1,10 @@
+$source-sans: "source-sans-pro-1", "source-sans-pro-2", sans-serif;
+$acuta: acuta-1,acuta-2,sans-serif;
+$padding: 15px;
+$link-red: #C06363;
+
+@import './src/scss/scaffold.scss';
+@import './src/scss/about.scss';
+@import './src/scss/projects.scss';
+@import './src/scss/papers.scss';
+@import './src/scss/travel.scss';

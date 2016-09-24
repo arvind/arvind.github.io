@@ -1,0 +1,12 @@
+{{#eq parent/videos.length 1}}
+  <a href="{{parent/videos.[0]}}" class="fancybox-media">Video</a>
+{{/eq}}
+
+{{#eq parent/talks.length 1}}
+  &middot; <a href="{{parent/talks.[0].url}}" class="fancybox-media">{{venueName parent/talks.[0].venue 'short' parent/parent}} '{{timeF '%y' parent/talks.[0].year}} Talk</a>
+{{/eq}}
+
+{{#if parent/repo}}
+  &middot; <a href="{{parent/repo}}">Code</a>
+{{/if}}
+</li>

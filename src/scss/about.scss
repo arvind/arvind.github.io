@@ -1,0 +1,63 @@
+#about {
+  a { font-weight: 400; }
+  a.past { font-weight: 300; }
+
+  p {
+    font-size: 17px;
+    line-height: 1.6em;
+    text-align: justify;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  & > div { padding: $padding; }
+
+  div.meta {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: -$padding;
+    text-align: center;
+  }
+
+  div.greeting {
+    font-weight: 500;
+    font-size: 30px;
+    font-family: $acuta;
+  }
+
+  .email span {
+    font-size: 10px;
+    vertical-align: 1px;
+    font-weight: 200;
+  }
+
+  #mugshot {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  #about-left {
+    // max-width: 180px;
+
+    ul {
+      text-align: center;
+    }
+  }
+
+  #about-desc {
+    padding-bottom: 0;
+  }
+
+  #news {
+    a { font-weight: 300; }
+    li { margin-bottom: $padding; }
+
+    .date {
+      color: #999 !important;
+      font-size: 11px;
+    }
+  }
+}
