@@ -42,13 +42,13 @@ version=$(cat package.json | jq .version | sed -e 's/^"//'  -e 's/"$//')
 
 # copy staged files to master
 git checkout master
-rsync -a build/* .
+rsync -r --remove-source-files build/* .
 
 # add, commit and push files to master
 git add .
 git commit -m "Update deployed files."
-# git push origin master
+git push origin master
 
 # swap back to dev branch
 git checkout dev
-# git push origin dev
+git push origin dev
