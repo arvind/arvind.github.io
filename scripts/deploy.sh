@@ -47,7 +47,8 @@ mv build/* .
 # add, commit and push files to master
 git add .
 git commit -m "Update deployed files."
-# git push origin master
+git push origin master
 
 # swap back to dev branch
 git checkout dev
+git push origin dev
