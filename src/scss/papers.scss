@@ -1,6 +1,6 @@
 #papers {
   @media screen and (min-width:568px) {
-    padding-left: $padding;
+    padding-left: $padding/2;
   }
 
   .content {
@@ -31,4 +31,6 @@
       &:hover { color: $link-red; }
     }
   }
+
+  #more-pubs { margin: 0; }
 }

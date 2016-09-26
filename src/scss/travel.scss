@@ -1,3 +1,9 @@
+#other_projects {
+  @media screen and (min-width:568px) {
+    padding-right: $padding/2;
+  }
+}
+
 #travel {
   @media screen and (min-width:568px) {
     padding-left: $padding;
