@@ -204,7 +204,7 @@ h2 {
 
 @media screen and (min-width: 568px) {
   #papers {
-    padding-left: 15px; } }
+    padding-left: 7.5px; } }
 
 #papers .content {
   padding: 15px; }
@@ -236,6 +236,13 @@ h2 {
     color: #000; }
     #papers .collaborators a:hover {
       color: #C06363; }
+
+#papers #more-pubs {
+  margin: 0; }
+
+@media screen and (min-width: 568px) {
+  #other_projects {
+    padding-right: 7.5px; } }
 
 @media screen and (min-width: 568px) {
   #travel {
