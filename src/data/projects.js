@@ -76,7 +76,7 @@ module.exports = [
   {
     slug: 'overlays',
     name: 'An Overlay Interface for Large Displays',
-    url: 'http://arvindsatya.com/papers/iui2012.pdf',
+    url: '/papers/2012-Overlays-IUI.pdf',
     collaborators: ['weibel', 'hollan'],
     papers: ['wall-overlays'],
     videos: ['https://www.youtube.com/watch?v=oazCyaTgLdA'],
