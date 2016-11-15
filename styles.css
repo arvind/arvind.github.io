@@ -163,7 +163,8 @@ h2 {
   margin: 0 auto; }
 
 #about #about-left ul {
-  text-align: center; }
+  text-align: center;
+  margin-top: 15px; }
 
 #about #about-desc {
   padding-bottom: 0; }
@@ -177,6 +178,9 @@ h2 {
 #about #news .date {
   color: #999 !important;
   font-size: 11px; }
+
+#about .job-materials {
+  margin-top: 10px; }
 
 .project {
   padding: 15px;
