@@ -4,8 +4,8 @@ module.exports = [
     desc: 'I am on the academic job market! My materials include a <a href="/files/research-statement.pdf">research statement</a>, <a href="/files/teaching-statement.pdf">teaching statement</a>, and <a href="/files/cv.pdf">curriculum vitae</a>.'
   },
   {
-    date: '2016-08-01',
-    desc: 'Looking forward to presenting our paper on <a href="http://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf">Vega-Lite</a> at InfoVis 2016.'
+    date: '2016-08-08',
+    desc: '<a href="http://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf">Vega-Lite</a> wins Best Paper at InfoVis 2016! Looking forward to Baltimore in October.'
   },
   {
     date: '2016-03-10',
