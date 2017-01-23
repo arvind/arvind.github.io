@@ -7,11 +7,15 @@
         {{#each travel}}
           <tr {{{pastTravel this}}}>
             <td valign="top">
-              {{#eq (timeF '%b' start) (timeF '%b' end)}}
-                {{timeF '%b %e' start}}–{{timeF '%e' end}}
+              {{#if end}}
+                {{#eq (timeF '%b' start) (timeF '%b' end)}}
+                  {{timeF '%b %e' start}}–{{timeF '%e' end}}
+                {{else}}
+                  {{timeF '%b %e' start}}–{{timeF '%b %e' end}}
+                {{/eq}}
               {{else}}
-                {{timeF '%b %e' start}}–{{timeF '%b %e' end}}
-              {{/eq}}
+                {{timeF '%b %e' start}}
+              {{/if}}
             </td>
             <td><a href="{{url}}">{{desc}}</a>, {{location}}</td>
           </tr>

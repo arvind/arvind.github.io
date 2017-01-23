@@ -1,5 +1,5 @@
 module.exports = [
- {
+  {
     start: '2017-04-24',
     end: '2017-04-25',
     desc: 'OpenVis Conf',
@@ -7,10 +7,16 @@ module.exports = [
     location: 'Boston, MA'
   },
   {
+    start: '2017-02-14',
+    desc: 'University of Illinois',
+    url: 'http://cs.uiuc.edu/',
+    location: 'Urbana-Champaign, IL'
+  },
+  {
     start: '2017-02-07',
     end: '2017-02-08',
     desc: 'Cornell University',
-    url: 'http://cs.cornell.edu',
+    url: 'http://infosci.cornell.edu/colloquia/arvind-satyanarayan-tuesday-feb-7-2017',
     location: 'Ithaca, NY'
   },
   {
