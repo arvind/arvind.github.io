@@ -7,6 +7,13 @@ module.exports = [
     location: 'Boston, MA'
   },
   {
+    start: '2017-03-07',
+    end: '2017-03-08',
+    desc: 'University of Michigan',
+    url: 'http://cse.umich.edu',
+    location: 'Ann Arbor, MI'
+  },
+  {
     start: '2017-02-14',
     desc: 'University of Illinois',
     url: 'http://cs.uiuc.edu/',
