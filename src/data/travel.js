@@ -7,6 +7,13 @@ module.exports = [
     location: 'Boston, MA'
   },
   {
+    start: '2017-03-09',
+    end: '2017-03-10',
+    desc: 'University of Toronto',
+    url: 'http://web.cs.toronto.edu/',
+    location: 'Ontario, Canada'
+  },
+  {
     start: '2017-03-07',
     end: '2017-03-08',
     desc: 'University of Michigan',
@@ -29,8 +36,8 @@ module.exports = [
   {
     start: '2017-02-02',
     end: '2017-02-03',
-    desc: 'UW Madison',
-    url: 'http://cs.wisc.edu',
+    desc: 'University of Wisconsin',
+    url: 'http://www.cs.wisc.edu/events/3257',
     location: 'Madison, WI'
   },
   {
