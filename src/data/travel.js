@@ -7,6 +7,13 @@ module.exports = [
     location: 'Boston, MA'
   },
   {
+    start: '2017-03-13',
+    end: '2017-03-14',
+    desc: 'University of British Columbia',
+    url: 'http://cs.ubc.ca',
+    location: 'Canada'
+  },
+  {
     start: '2017-03-09',
     end: '2017-03-10',
     desc: 'University of Toronto',
@@ -19,6 +26,13 @@ module.exports = [
     desc: 'University of Michigan',
     url: 'http://cse.umich.edu',
     location: 'Ann Arbor, MI'
+  },
+  {
+    start: '2017-02-22',
+    end: '2017-02-23',
+    desc: 'UC Berkeley',
+    url: 'http://eecs.berkeley.edu',
+    location: 'Berkeley, CA'
   },
   {
     start: '2017-02-14',
