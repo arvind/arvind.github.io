@@ -7,6 +7,13 @@ module.exports = [
     location: 'Boston, MA'
   },
   {
+    start: '2017-04-20',
+    end: '2017-04-21',
+    desc: 'MIT',
+    url: 'https://calendar.csail.mit.edu/events/183544',
+    location: 'Cambridge, MA'
+  },
+  {
     start: '2017-03-13',
     end: '2017-03-14',
     desc: 'University of British Columbia',
@@ -44,7 +51,7 @@ module.exports = [
     start: '2017-02-07',
     end: '2017-02-08',
     desc: 'Cornell University',
-    url: 'http://infosci.cornell.edu/colloquia/arvind-satyanarayan-tuesday-feb-7-2017',
+    url: 'https://www.cs.cornell.edu/content/cs-colloquium-declarative-interaction-design-data-visualization',
     location: 'Ithaca, NY'
   },
   {
