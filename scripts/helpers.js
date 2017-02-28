@@ -21,6 +21,6 @@ hb.registerHelper('timeF', function(fmt, str) {
 });
 
 hb.registerHelper('pastTravel', function(travel) {
-  return new Date(travel.end + ' 00:00:00') < new Date() ?
+  return new Date((travel.end || travel.start) + ' 00:00:00') < new Date() ?
     'class="past"' : '';
 });

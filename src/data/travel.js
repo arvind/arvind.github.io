@@ -14,6 +14,20 @@ module.exports = [
     location: 'Cambridge, MA'
   },
   {
+    start: '2017-04-11',
+    end: '2017-04-12',
+    desc: 'UC San Diego',
+    url: 'http://cse.ucsd.edu',
+    location: 'La Jolla, CA'
+  },
+  {
+    start: '2017-04-05',
+    end: '2017-04-06',
+    desc: 'Northwestern University',
+    url: 'http://www.mccormick.northwestern.edu/eecs/events/2017.4.5...',
+    location: 'Evanston, IL'
+  },
+  {
     start: '2017-03-13',
     end: '2017-03-14',
     desc: 'University of British Columbia',
