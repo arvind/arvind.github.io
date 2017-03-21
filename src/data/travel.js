@@ -17,7 +17,7 @@ module.exports = [
     start: '2017-04-17',
     end: '2017-04-18',
     desc: 'NYU CS & CDS',
-    url: 'https://calendar.csail.mit.edu/events/183544',
+    url: 'https://www.cs.nyu.edu',
     location: 'New York City, NY'
   },
   {
