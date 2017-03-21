@@ -14,10 +14,17 @@ module.exports = [
     location: 'Cambridge, MA'
   },
   {
+    start: '2017-04-17',
+    end: '2017-04-18',
+    desc: 'NYU CS & CDS',
+    url: 'https://calendar.csail.mit.edu/events/183544',
+    location: 'New York City, NY'
+  },
+  {
     start: '2017-04-11',
     end: '2017-04-12',
     desc: 'UC San Diego',
-    url: 'http://cse.ucsd.edu',
+    url: 'http://cse.ucsd.edu/about/declarative-interaction-design-data-visualization',
     location: 'La Jolla, CA'
   },
   {
