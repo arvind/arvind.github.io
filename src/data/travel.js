@@ -1,5 +1,12 @@
 module.exports = [
   {
+    start: '2017-06-25',
+    end: '2017-06-29',
+    desc: 'HCIC 2017',
+    url: 'https://hcic.org/hcic2017/',
+    location: 'Pajaro Dunes Resort, CA'
+  },
+  {
     start: '2017-04-24',
     end: '2017-04-25',
     desc: 'OpenVis Conf',
