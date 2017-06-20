@@ -22,6 +22,11 @@ module.exports = [
     collaborators: ['domoritz', 'kanitw', 'jheer'],
     papers: ['vega-lite'],
     videos: ['https://vimeo.com/177767802'],
+    talks: [{
+      venue: 'openvis',
+      year: 2017,
+      url: 'https://www.youtube.com/watch?v=9uaHRWj04D4'
+    }],
     repo: 'https://github.com/vega/vega-lite',
     thumb: 'http://idl.cs.washington.edu/static/images/thumbs/vega-lite.png',
     abstract: 'A high-level visualization grammar that enables rapid specification, and decomposes interaction into enumerable semantic units.',
