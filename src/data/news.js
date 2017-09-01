@@ -1,5 +1,9 @@
 module.exports = [
   {
+    date: '2017-09-01',
+    desc: 'That\'s a wrap! Officially submitted my thesis, <a href="/files/thesis-augmented.pdf">The Reactive Vega Stack: Declarative Interaction Design for Data Visualization</a>.'
+  },
+  {
     date: '2017-05-30',
     desc: 'Thrilled to announce I\'ll be joining <a href="https://www.csail.mit.edu">MIT CSAIL</a> as an Assistant Professor in July \'18.'
   },
