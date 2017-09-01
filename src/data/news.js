@@ -7,18 +7,18 @@ module.exports = [
     date: '2017-05-30',
     desc: 'Thrilled to announce I\'ll be joining <a href="https://www.csail.mit.edu">MIT CSAIL</a> as an Assistant Professor in July \'18.'
   },
-  {
-    date: '2016-11-15',
-    desc: 'I am on the academic job market! My materials include a <a href="/files/research-statement.pdf">research statement</a>, <a href="/files/teaching-statement.pdf">teaching statement</a>, and <a href="/files/cv.pdf">curriculum vitae</a>.'
-  },
+  // {
+  //   date: '2016-11-15',
+  //   desc: 'I am on the academic job market! My materials include a <a href="/files/research-statement.pdf">research statement</a>, <a href="/files/teaching-statement.pdf">teaching statement</a>, and <a href="/files/cv.pdf">curriculum vitae</a>.'
+  // },
   {
     date: '2016-08-08',
     desc: '<a href="http://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf">Vega-Lite</a> wins Best Paper at InfoVis 2016! Looking forward to Baltimore in October.'
   },
-  {
-    date: '2016-03-10',
-    desc: 'Honored to be awarded a <a href="http://googleresearch.blogspot.com/2016/03/announcing-2016-google-phd-fellows-for.html">Google PhD Fellowship</a>.'
-  },
+  // {
+  //   date: '2016-03-10',
+  //   desc: 'Honored to be awarded a <a href="http://googleresearch.blogspot.com/2016/03/announcing-2016-google-phd-fellows-for.html">Google PhD Fellowship</a>.'
+  // },
   // {
   //   date: '2015-07-14',
   //   desc: 'Released <a href="http://vega.github.io/vega/">Vega</a> <a href="https://github.com/vega/vega/releases/tag/v2.0.0">2.0</a> featuring declarative interaction design, streaming data sources, improved rendering, and more.'
