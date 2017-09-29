@@ -8,7 +8,7 @@ html, body {
 
 html, button, input, select, textarea,
 .pure-g [class*="pure-u"] {
-  font-family: "source-sans-pro-1", "source-sans-pro-2", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 a {
   color: #C06363;
@@ -28,9 +28,9 @@ a:hover {
     margin: 0;
     padding: 0; }
   #header h1 {
-    background: #4A6E53; }
+    background: #A31F34; }
   #header h2 {
-    background: #88A65E; }
+    background: #C2C0BF; }
 
 #center {
   margin: 0 auto;
@@ -52,11 +52,11 @@ a:hover {
     margin-top: 5px; }
 
 h2 {
-  font-family: acuta-1, acuta-2, sans-serif;
-  font-weight: 500;
-  font-size: 22px;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 24px;
   color: #333;
-  margin: 15px 0 -4px 15px; }
+  margin: 30px 0 -4px 15px; }
 
 /* pure-hidden-xs */
 @media screen and (max-width: 567px) {
@@ -135,7 +135,7 @@ h2 {
   text-align: justify; }
 
 #about h2 {
-  font-size: 16px;
+  font-size: 18px;
   margin: 0; }
 
 #about > div {
@@ -148,9 +148,9 @@ h2 {
   text-align: center; }
 
 #about div.greeting {
-  font-weight: 500;
-  font-size: 30px;
-  font-family: acuta-1, acuta-2, sans-serif; }
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Alegreya", serif; }
 
 #about .email span {
   font-size: 10px;
@@ -159,7 +159,7 @@ h2 {
 
 #about #mugshot {
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 50%;
   margin: 0 auto; }
 
 #about #about-left ul {
