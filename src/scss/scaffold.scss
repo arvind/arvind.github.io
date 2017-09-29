@@ -9,7 +9,7 @@ html, body {
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-  font-family: $source-sans;
+  font-family: $body-font;
 }
 
 a {
@@ -34,8 +34,8 @@ a:hover {
     padding: 0;
   }
 
-  h1 { background: #4A6E53; }
-  h2 { background: #88A65E; }
+  h1 { background: #A31F34; }
+  h2 { background: #C2C0BF; }
 }
 
 #center {
@@ -63,11 +63,11 @@ a:hover {
 }
 
 h2 {
-  font-family: $acuta;
-  font-weight: 500;
-  font-size: 22px;
+  font-family: $heading-font;
+  font-weight: 400;
+  font-size: 24px;
   color: #333;
-  margin: $padding 0 -4px $padding;
+  margin: 2*$padding 0 -4px $padding;
 }
 
 /* pure-hidden-xs */

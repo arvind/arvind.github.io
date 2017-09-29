@@ -1,5 +1,12 @@
 module.exports = [
   {
+    start: '2017-10-01',
+    end: '2017-10-06',
+    desc: 'IEEE VIS',
+    url: 'http://ieeevis.org/',
+    location: 'Phoenix, AZ'
+  },
+  {
     start: '2017-06-25',
     end: '2017-06-29',
     desc: 'HCIC 2017',
