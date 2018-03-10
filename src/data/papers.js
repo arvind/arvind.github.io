@@ -1,5 +1,21 @@
 module.exports = [
   {
+    slug: 'interpretability-building-blocks',
+    title: 'The Building Blocks of Interpretability',
+    authors: ['colah', 'me', 'enjalot', 'shancarter', 'ludwigschubert', 'kqy', 'znah'],
+    venue: 'distill',
+    url: 'https://distill.pub/2018/building-blocks/'
+  },
+  {
+    slug: 'insitu-vis-debugging',
+    title: 'Augmenting Code with In Situ Visualizations to Aid Program Understanding',
+    authors: ['jhoffs', 'me', 'jheer'],
+    venue: 'chi',
+    year: 2018,
+    url: 'http://idl.cs.washington.edu/files/2018-InSituCodeVis-CHI.pdf',
+    abstract: 'Programmers must draw explicit connections between their code and runtime state to properly assess the correctness of their programs. However, debugging tools often decouple the program state from the source code and require explicitly invoked views to bridge the rift between program editing and program understanding. To unobtrusively reveal runtime behavior during both normal execution and debugging, we contribute techniques for visualizing program variables directly within the source code. We describe a design space and placement criteria for embedded visualizations. We evaluate our in situ visualizations in an editor for the Vega visualization grammar. Compared to a baseline development environment, novice Vega users improve their overall task grade by about 2 points when using the in situ visualizations and exhibit significant positive effects on their self-reported speed and accuracy.'
+  },
+  {
     slug: 'vega-lite',
     title: 'Vega-Lite: A Grammar of Interactive Graphics',
     authors: ['me', 'domoritz', 'kanitw', 'jheer'],
@@ -33,6 +49,7 @@ module.exports = [
     authors: ['me', 'kanitw', 'jheer'],
     venue: 'uist',
     year: 2014,
+    hidden: true,
     url: 'http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf',
     abstract: 'Declarative visualization grammars can accelerate development, facilitate retargeting across platforms, and allow language-level optimizations. However, existing declarative visualization languages are primarily concerned with visual encoding, and rely on imperative event handlers for interactive behaviors. In response, we introduce a model of declarative interaction design for data visualizations. Adopting methods from reactive programming, we model low-level events as composable data <em>streams</em> from which we form higher-level semantic <em>signals</em>. Signals feed <em>predicates</em> and <em>scale inversions</em>, which allow us to generalize interactive selections at the level of item geometry (pixels) into interactive queries over the data domain. <em>Production rules</em> then use these queries to manipulate the visualization’s appearance. To facilitate reuse and sharing, these constructs can be encapsulated as named <em>interactors</em>: standalone, purely declarative specifications of interaction techniques. We assess our model’s feasibility and expressivity by instantiating it with extensions to the Vega visualization grammar. Through a diverse range of examples, we demonstrate coverage over an established taxonomy of visualization interaction techniques.'
   },
@@ -51,6 +68,7 @@ module.exports = [
     authors: ['me', 'jheer'],
     venue: 'eurovis',
     year: 2014,
+    hidden: true,
     url: 'http://idl.cs.washington.edu/files/2014-Ellipsis-EuroVis.pdf',
     abstract: 'Data visualization is now a popular medium for journalistic storytelling. However, current visualization tools either lack support for storytelling or require significant technical expertise. Informed by interviews with journalists, we introduce a model of storytelling abstractions that includes state-based scene structure, dynamic annotations and decoupled coordination of multiple visualization components. We instantiate our model in Ellipsis: a system that combines a domain-specific language (DSL) for storytelling with a graphical interface for story authoring. User interactions are automatically translated into statements in the Ellipsis DSL. By enabling storytelling without programming, the Ellipsis interface lowers the threshold for authoring narrative visualizations. We evaluate Ellipsis through example applications and user studies with award-winning journalists. Study participants find Ellipsis to be a valuable prototyping tool that can empower journalists in the creation of interactive narratives.'
   },
@@ -61,6 +79,7 @@ module.exports = [
     venue: 'chi',
     year: 2013,
     bestPaper: true,
+    hidden: true,
     url: 'http://hci.stanford.edu/publications/2013/Webzeitgeist/webzeitgeist.pdf',
     abstract: 'Advances in data mining and knowledge discovery have transformed the way Web sites are designed. However, while visual presentation is an intrinsic part of the Web, traditional data mining techniques ignore render-time page structures and their attributes. This paper introduces <em>design mining</em> for the Web: using knowledge discovery techniques to understand design demographics, automate design curation, and support data-driven design tools. This idea is manifest in Webzeitgeist, a platform for large-scale design mining comprising a repository of over 100,000 Web pages and 100 million design elements. This paper describes the principles driving design mining, the implementation of the Webzeitgeist architecture, and the new class of data-driven design applications it enables.'
   },

@@ -30,5 +30,9 @@ module.exports = {
   openvis: {
     short: "OpenVis",
     full: "OpenVis Conf"
+  },
+  distill: {
+    short: "Distill",
+    full: "Distill Journal"
   }
 };

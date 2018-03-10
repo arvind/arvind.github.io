@@ -73,5 +73,29 @@ module.exports = {
   mackay: {
     name: "Wendy Mackay",
     url: "https://www.lri.fr/~mackay/"
+  },
+  colah: {
+    name: "Chris Olah",
+    url: "https://colah.github.io"
+  },
+  enjalot: {
+    name: "Ian Johnson",
+    url: "https://github.com/enjalot"
+  },
+  shancarter: {
+    name: "Shan Carter",
+    url: "http://shancarter.com/"
+  },
+  ludwigschubert: {
+    name: "Ludwig Schubert",
+    url: "https://schubert.io/"
+  },
+  kqy: {
+    name: "Katherine Ye",
+    url: "https://cs.cmu.edu/~kqy/"
+  },
+  znah: {
+    name: "Alexander Mordvintsev",
+    url: "https://znah.net/"
   }
 };
