@@ -1,7 +1,7 @@
 var reload = require('require-reload')(require);
 
 module.exports = {
-  email: 'arvindsatya@cs.stanford.edu',
+  email: 'arvindsatya@mit.edu',
   handle: 'arvindsatya1',
   cv: '/files/cv.pdf',
   research_statement: '/files/research-statement.pdf',
