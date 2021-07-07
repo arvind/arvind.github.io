@@ -179,7 +179,8 @@ h2 {
   font-size: 11px; }
 
 #about .job-materials {
-  margin-top: 10px; }
+  margin-top: 10px; 
+  font-weight: bold;}
 
 .project {
   padding: 15px;
